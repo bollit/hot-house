@@ -6,70 +6,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>首页</title>
-    <link rel="stylesheet" href="./css/index.min.css">
-    <script src=""></script>
+    <link rel="stylesheet" href="./scss/index.min.css">
 </head>
 
 <body>
-    <!-- 头部 -->
-    <header>
+    <div class="content">
+        <!-- 头部 -->
+        <iframe src="./header.html" frameborder="0" width="100%" height="60px" scrolling="0"></iframe>
+
         <!-- 搜索框 -->
-        <label for="search"><img src="./image/index/seach.jpg" alt=""><input type="text" name="search" id="search"
-                placeholder="输入小区或商圈名开始找房咯！"></label>
-    </header>
-
-    <!-- 导航栏 -->
-    <nav>
-        <a href=""><img src="./image/index/index_03.png" alt="">二手房</a>
-        <a href=""><img src="./image/index/index_05.png" alt="">新房</a>
-        <a href=""><img src="./image/index/index_09.png" alt="">租房</a>
-        <a href=""><img src="./image/index/index_07.png" alt="">卖房</a>
-    </nav>
-    <!-- 正文部分 -->
-    <article><img src="./image/index/banner2.png" alt=""></article>
-
-    <!-- 首页第二屏-热门，热门房源 -->
-    <div class="body2">
-        <div class="header2">
-            <h3>热门房源</h3>Hot house
+        <div class="searchBox">
+            <div class="inp">
+                <input type="search" placeholder="输入小区或商圈名开始找房咯！">
+            </div>
         </div>
-
-        <!-- 第二屏正文部分 -->
-        <div class="article">
-            <div class="item">
-                <img src="./image/index/img1.jpg" alt="">
-                <div class="itemContent">
-                    <h4>文化部最中间层 一层带...</h4>
-                    <h6>两室一厅96m2 南北</h6>
-                    <p>红庙北里</p>
-                    <p><span>学区房</span><span>独家</span></p>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./image/index/img2.png" alt="">
-                <div class="itemContent">
-                    <h4>光大水墨 精装复式 稀缺...</h4>
-                    <h6>两室一厅96m2 南北</h6>
-                    <p>光大水墨</p>
-                    <p><span>学区房</span><span>独家</span><span>满五唯一</span></p>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./image/index/img3.png" alt="">
-                <div class="itemContent">
-                    <h4>南北通透两居 精装修 无...</h4>
-                    <h6>两室一厅96m2 南北</h6>
-                    <p>北京新天地</p>
-                    <p><span>学区房</span><span>独家</span></p>
-                </div>
-            </div>
-
+        <!-- 导航栏 -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="./shhouse.html">
+                        <img src="./image/index/index_03.png" alt="">
+                        <p>二手房</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/index/index_05.png" alt="">
+                        <p>新房</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./beijingRent.html">
+                        <img src="./image/index/index_07.png" alt="">
+                        <p>租房</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/index/index_09.png" alt="">
+                        <p>卖房</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- 背景大图 -->
+        <div class="bgc_img">
+            <img src="./image/index/banner2.png" alt="">
         </div>
+        <!-- 正文 -->
+        <article>
+            <div class="headline">
+                <h2>热门房源</h2>
+                <p>Hot house</p>
+            </div>
+            <ul>
+                <li>
+                    <div class="img_box">
+                        <img src="./image/index/img1.jpg" alt="">
+                    </div>
+                    <div class="text_box">
+                        <h2>文化部中间层 一层带...</h2>
+                        <p>
+                            <span>2室1厅96m²南北</span>
+                            <span>1105万</span>
+                        </p>
+                        <p>
+                            <span>红庙北里</span>
+                            <span>14268元/平</span>
+                        </p>
+                        <p>
+                            <span>学区房</span>
+                            <span>独家</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img_box">
+                        <img src="./image/index/img2.png" alt="">
+                    </div>
+                    <div class="text_box">
+                        <h2>光大水墨 精装复式...</h2>
+                        <p>
+                            <span>2室1厅96m²南北</span>
+                            <span>208万</span>
+                        </p>
+                        <p>
+                            <span>光大水墨</span>
+                            <span>14268元/平</span>
+                        </p>
+                        <p>
+                            <span>学区房</span>
+                            <span>独家</span>
+                            <span>满五唯一</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img_box">
+                        <img src="./image/index/img3.png" alt="">
+                    </div>
+                    <div class="text_box">
+                        <h2>南北通透两居 精装修...</h2>
+                        <p>
+                            <span>2室1厅96m²南北</span>
+                            <span>320万</span>
+                        </p>
+                        <p>
+                            <span>北京新天地</span>
+                            <span>14268元/平</span>
+                        </p>
+                        <p>
+                            <span>地铁房</span>
+                            <span>独家</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </article>
         <!-- 热门关注 -->
         <div class="hot">
-            <div class="hotHeader">
-                <div class="followers">热门关注</div>
-                <div class="friendly">友情链接</div>
+            <div>
+                <div>热门关注</div>
+                <div>友情链接</div>
             </div>
             <ul>
                 <li>北京二手房</li>
@@ -82,8 +140,27 @@
                 <li>满五年唯一免税</li>
             </ul>
         </div>
+        <!-- 底部 -->
+        <iframe src="./footer.html" frameborder="0" width="100%" height="250px"></iframe>
+        <!-- 下载广告 -->
+        <div class="advertising">
+            <div><img src="./image/index/close.png" alt=""></div>
+            <div>
+                <img src="./image/index/download.png" alt="">
+                <div>
+                    <p>找房无忧</p>
+                    <span>市场行情，一手掌握!</span>
+                </div>
+            </div>
+            <div>
+                <a href="#">
+                    立即下载
+                </a>
+            </div>
+        </div>
     </div>
 </body>
 
 </html>
-<script src="../setRem.js"></script>
+<script src="./js/setRem1.js"></script>
+<script src="./js/index.js"></script>

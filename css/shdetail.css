@@ -26,6 +26,7 @@ html {
 
 html body {
   background-color: #F5F5F5;
+  min-width: 375px;
   /* 头部和底部 */
   /* 顶部轮播图 */
   /* 房源标题 */
