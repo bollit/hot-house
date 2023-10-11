@@ -1,0 +1,424 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+html body {
+  background-color: #F5F5F5;
+  /* 头部和底部 */
+  /* 顶部轮播图 */
+  /* 房源标题 */
+  /* 房源详细信息 */
+  /* 房源特色 */
+  /* 户型分间 */
+  /* 对口学校 */
+  /* 位置及周边 */
+  /* 推荐房源 */
+  /* 底部联系 */
+}
+
+html body iframe {
+  height: 5rem;
+}
+
+html body iframe:nth-of-type(2) {
+  height: 20rem;
+}
+
+html body .swiper {
+  width: 100%;
+  height: 19rem;
+}
+
+html body .swiper img {
+  width: 100%;
+  height: 100%;
+}
+
+html body .swiper .swiper-pagination {
+  transform: translateX(16rem);
+}
+
+html body .title {
+  padding: 2.3rem 2rem;
+  width: 100%;
+  height: 21rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: .1rem solid #dedddd;
+}
+
+html body .title h1 {
+  font-size: 2.3rem;
+}
+
+html body .title p {
+  font-size: 1.7rem;
+}
+
+html body .title p span {
+  color: red;
+  font-weight: 600;
+}
+
+html body .title p:nth-of-type(2) {
+  color: #999;
+  font-size: 1.4rem;
+}
+
+html body .title ul {
+  width: 26rem;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+html body .title ul li {
+  height: 3rem;
+  background-color: #DEE9F0;
+  flex: 3;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #98ACBD;
+}
+
+html body .title ul li:nth-of-type(2) {
+  flex: 2;
+}
+
+html body .title ul li:nth-of-type(3) {
+  flex: 4;
+}
+
+html body .message {
+  height: 40rem;
+  background-color: #fff;
+  margin: 1.8rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  border-top: .1rem solid #dedddd;
+  border-bottom: .1rem solid #dedddd;
+}
+
+html body .message li {
+  height: 4.5rem;
+  border-bottom: .1rem solid #dedddd;
+  display: flex;
+  align-items: center;
+}
+
+html body .message li:last-of-type {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+}
+
+html body .message li span {
+  flex: 1;
+}
+
+html body .specialty {
+  height: 20rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-top: .1rem solid #dedddd;
+  border-bottom: .1rem solid #dedddd;
+  padding: 0 2rem;
+}
+
+html body .specialty h5 {
+  flex: 2;
+  color: #FF8A00;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+
+html body .specialty .text {
+  display: flex;
+  align-items: center;
+  line-height: 2rem;
+  flex: 5;
+  border-top: .1rem solid #dedddd;
+  border-bottom: .1rem solid #dedddd;
+}
+
+html body .specialty p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  color: #999;
+}
+
+html body .division {
+  height: 25rem;
+  margin: 1.8rem 0;
+  border-top: .1rem solid #dedddd;
+  border-bottom: .1rem solid #dedddd;
+  background-color: #fff;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+html body .division h5 {
+  flex: 2;
+  color: #FF8A00;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+
+html body .division .item {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: .1rem solid #dedddd;
+}
+
+html body .division .item img {
+  width: 6rem;
+}
+
+html body .division .item:last-child {
+  border-top: .1rem solid #FF8A00;
+}
+
+html body .division .item .text {
+  flex: 6;
+  height: 60%;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+html body .division .item .text p:last-child {
+  display: flex;
+}
+
+html body .division .item .text p:last-child span {
+  display: inline-block;
+  margin-right: 1rem;
+  color: #98ACBD;
+  background-color: #DEE9F0;
+}
+
+html body .school {
+  height: 30rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-top: .1rem solid #dedddd;
+  border-bottom: .1rem solid #dedddd;
+  padding: 0 2rem;
+}
+
+html body .school li {
+  height: 4.5rem;
+  border-bottom: .1rem solid #dedddd;
+  display: flex;
+  align-items: center;
+}
+
+html body .school li span {
+  color: #999;
+}
+
+html body .school li:first-of-type {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+html body .school li:last-of-type {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html body .location {
+  height: 23rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-top: .1rem solid #dedddd;
+  border-bottom: .1rem solid #dedddd;
+  padding: 0 2rem;
+  margin: 1.8rem 0;
+}
+
+html body .location h5 {
+  flex: 1;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  border-bottom: .1rem solid #dedddd;
+}
+
+html body .location div {
+  flex: 4;
+  display: flex;
+  align-items: center;
+}
+
+html body .location div img {
+  width: 100%;
+  height: 15rem;
+}
+
+html body .recommend {
+  height: 120rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-top: .1rem solid #dedddd;
+  border-bottom: .1rem solid #dedddd;
+  padding: 0 2rem;
+}
+
+html body .recommend > h5 {
+  flex: 2;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+
+html body .recommend .item {
+  flex: 6;
+  border-top: .1rem solid #dedddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* 推荐理由 */
+}
+
+html body .recommend .item img {
+  flex: 2;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html body .recommend .item .text {
+  flex: 5;
+  height: 60%;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+html body .recommend .item .text h5 {
+  font-size: 1.6rem;
+}
+
+html body .recommend .item .text p span {
+  color: #FF8A00;
+}
+
+html body .recommend .item .text p:nth-of-type(2) span {
+  color: #999;
+}
+
+html body .recommend .item .text p:nth-of-type(3) {
+  width: 4rem;
+  color: #98ACBD;
+  background-color: #DEE9F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html body .recommend .item .reason {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #F2F2F2;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  position: relative;
+}
+
+html body .recommend .item .reason .angle {
+  width: 0;
+  height: 0;
+  border-bottom: .8rem solid #F2F2F2;
+  border-left: .8rem solid transparent;
+  border-right: .8rem solid transparent;
+  position: absolute;
+  top: -0.8rem;
+  left: 0.8rem;
+}
+
+html body .recommend .more {
+  flex: 2;
+  border-top: .1rem solid #dedddd;
+  color: #6a6a6a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html body .call {
+  height: 7rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+html body .call .left {
+  flex: 5;
+  height: 5rem;
+  background-color: #FF8A00;
+  color: #fff;
+  border-radius: .5rem;
+  margin-left: 3rem;
+}
+
+html body .call .right {
+  flex: 3;
+}
+
+html body .call div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html body .call div img {
+  width: 4rem;
+}

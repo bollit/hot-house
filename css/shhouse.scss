@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+
+    body {
+        background-color: #F5F5F5;
+
+        /* 头部 */
+        header {
+            height: 3rem;
+            background-color: #fff;
+            border-bottom: .1rem solid #999;
+            display: flex;
+            align-items: center;
+            padding-left: 1.8rem;
+
+            span:nth-of-type(1) {
+                font-weight: 600;
+            }
+        }
+
+        /* 搜索框 */
+        .search {
+            margin: 1rem auto 0;
+            width: 90%;
+            height: 4rem;
+            border: 1px solid #999;
+            border-radius: .5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 4rem;
+            background: url(../image/SecondHandList/search_03.png) no-repeat 30rem center;
+            background-size: 2rem;
+            background-color: #fff;
+
+            input {
+                width: 90%;
+                border: none;
+                border-right: .2rem solid #222;
+                outline: none;
+            }
+        }
+
+        /* 导航栏 */
+        nav {
+            margin: 1rem auto 0;
+            width: 100%;
+            height: 5rem;
+            background-color: #fff;
+            border-top: .2rem solid #E0E0E0;
+            border-bottom: .2rem solid #E0E0E0;
+
+            ul {
+                width: 100%;
+                height: 5rem;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                font-size: 2rem;
+                font-weight: 700;
+                color: #676666;
+
+                .arrow {
+                    display: inline-block;
+                    width: 0;
+                    height: 0;
+                    border-top: .5rem solid #999;
+                    border-left: .5rem solid transparent;
+                    border-right: .5rem solid transparent;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+
+        article {
+            padding: 0 1.8rem;
+
+            .item {
+                display: flex;
+                border-bottom: .1rem solid #FF8A00;
+                padding: 2rem 0;
+
+                &:nth-of-type(3) {
+                    border: none;
+                }
+
+                img {
+                    width: 10rem;
+                }
+
+                .context {
+                    margin-left: 2rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    p:nth-of-type(2),
+                    p:nth-of-type(3) {
+                        color: #999;
+
+                        span:nth-of-type(2) {
+                            color: #FF8A00;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* 头部和底部 */
+        iframe {
+            height: 5rem;
+
+            &:nth-of-type(2) {
+                height: 20rem;
+            }
+        }
+    }
+}

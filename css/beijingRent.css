@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article .item .img {
+  padding: .3rem;
+}
+
+article .item .context h5 {
+  font-size: 1.5rem;
+}
+
+article .item .context p {
+  width: 21.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+article .item .context p span:nth-of-type(1) {
+  display: inline-block;
+  padding: .3rem;
+  color: green;
+  border: .1rem solid green;
+  border-radius: .2rem;
+}

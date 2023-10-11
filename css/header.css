@@ -20,7 +20,7 @@ html {
 
 /* 头部 */
 header {
-  height: .7rem;
+  height: .5rem;
   background-color: #ff8a00;
 }
 
@@ -46,9 +46,10 @@ header ul li a {
 }
 
 header ul li a img {
-  height: .5rem;
+  height: .3rem;
   vertical-align: top;
-  margin-top: 10px;
+  margin-top: .1rem;
+  margin-left: .2rem;
 }
 
 /* 底部 */
@@ -80,6 +81,7 @@ footer .footerCenter {
 
 footer .footerCenter img {
   height: .4rem;
+  opacity: .2;
 }
 
 footer .footerBottom {

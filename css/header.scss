@@ -19,7 +19,7 @@ html {
 
 /* 头部 */
 header {
-    height: .7rem;
+    height: .5rem;
     background-color: #ff8a00;
 
     ul {
@@ -42,9 +42,10 @@ header {
                 height: inherit;
 
                 img {
-                    height: .5rem;
+                    height: .3rem;
                     vertical-align: top;
-                    margin-top: 10px;
+                    margin-top: .1rem;
+                    margin-left: .2rem;
                 }
             }
         }
@@ -78,6 +79,7 @@ footer {
 
         img {
             height: .4rem;
+            opacity: .2;
         }
     }
 
