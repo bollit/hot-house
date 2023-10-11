@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+html,
+body {
+    background-color: #F5F5F5;
+
+    main {
+        width: 100%;
+        min-width: 375px;
+
+        /* 头部 */
+        >header {
+            width: 100%;
+            background-color: #ff8a00;
+            height: 6.8rem;
+            display: flex;
+            justify-content: space-around;
+
+            >.logo {
+                width: 45%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                >a {
+                    height: 4.5rem;
+
+                    >img {
+                        height: 100%;
+                    }
+                }
+            }
+
+            >.header_right {
+                width: 45%;
+                display: flex;
+                height: 100%;
+                justify-content: flex-end;
+
+                >div {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    width: 5rem;
+
+                    >a {
+                        height: 4rem;
+
+                        >img {
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* 路径、当前位置 */
+        >.location {
+            background-color: #fff;
+            height: 4rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: .15rem solid rgb(205, 205, 205);
+
+            >p {
+                width: 90%;
+                font-size: 1.6rem;
+            }
+        }
+
+        /* 切换部分 点击 */
+        >.switchover {
+            background-color: #fff;
+            width: 100%;
+            display: flex;
+            height: 5.5rem;
+            border-bottom: .5rem solid transparent;
+
+            >div {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.6rem;
+                border-bottom: .5rem solid rgb(184, 184, 184);
+                color: gray;
+            }
+
+            >.select {
+                border-bottom: .5rem solid #ff8a00;
+                color: #ff8a00;
+            }
+        }
+
+        /* 切换部分 切换区 */
+        >article {
+            width: 100%;
+            background-color: #fff;
+
+            >div {
+                display: none;
+
+                >div {
+                    width: 100%;
+                    height: 4rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-bottom: .1rem solid rgb(199, 199, 199);
+
+                    >input {
+                        width: 92%;
+                        border: none;
+                        outline: none;
+                    }
+                }
+            }
+
+            >div:nth-of-type(2) {
+                >div:nth-of-type(1) {
+                    >input {
+                        width: 65%;
+                    }
+
+                    >button {
+                        width: 27%;
+                        background-color: transparent;
+                        outline: none;
+                        height: 80%;
+                        color: gray;
+                        border: .1rem solid rgba(192, 192, 192, 0.8);
+                    }
+                }
+            }
+
+            >.select {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        /* 登录按钮按钮 */
+        >.loginBox {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 8rem;
+
+            >button {
+                width: 94%;
+                display: none;
+                color: white;
+                background-color: #FF8A00;
+                border: none;
+                outline: none;
+                height: 4.5rem;
+                font-size: 1.8rem;
+            }
+
+            >.select {
+                display: block;
+            }
+        }
+
+        >footer {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            >p {
+                display: flex;
+                justify-content: space-between;
+                width: 92%;
+
+                >span:nth-of-type(1) {
+                    >a {
+                        color: #FF8A00;
+                    }
+                }
+            }
+        }
+    }
+}
