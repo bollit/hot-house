@@ -59,12 +59,16 @@ html {
 
         /* 导航栏 */
         nav {
+            margin: 1rem auto 0;
             width: 100%;
+            height: 5rem;
             display: flex;
             flex-direction: column;
             align-items: center;
             background-color: #fff;
             z-index: 3;
+            border-top: .2rem solid #E0E0E0;
+            border-bottom: .2rem solid #E0E0E0;
 
             >.list {
                 width: 90%;
