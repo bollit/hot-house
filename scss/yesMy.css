@@ -1,0 +1,187 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+html,
+body {
+  background-color: #F5F5F5;
+}
+
+html > main,
+body > main {
+  width: 100%;
+  min-width: 375px;
+  /* 头部 */
+  /* 路径、当前位置 */
+  /* 图标，用户名 */
+  /* 分类 */
+  /* 退出 */
+}
+
+html > main > header,
+body > main > header {
+  width: 100%;
+  background-color: #ff8a00;
+  height: 6.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+html > main > header > .logo,
+body > main > header > .logo {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html > main > header > .logo > a,
+body > main > header > .logo > a {
+  height: 4.5rem;
+}
+
+html > main > header > .logo > a > img,
+body > main > header > .logo > a > img {
+  height: 100%;
+}
+
+html > main > header > .header_right,
+body > main > header > .header_right {
+  width: 45%;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+html > main > header > .header_right > div,
+body > main > header > .header_right > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 5rem;
+}
+
+html > main > header > .header_right > div > a,
+body > main > header > .header_right > div > a {
+  height: 4rem;
+}
+
+html > main > header > .header_right > div > a > img,
+body > main > header > .header_right > div > a > img {
+  height: 100%;
+}
+
+html > main > .location,
+body > main > .location {
+  background-color: #fff;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.15rem solid #cdcdcd;
+}
+
+html > main > .location > p,
+body > main > .location > p {
+  width: 90%;
+  font-size: 1.6rem;
+}
+
+html > main > article,
+body > main > article {
+  width: 100%;
+  height: 17rem;
+  background: url(../image/my/bg2.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 1.6rem;
+  justify-content: space-evenly;
+}
+
+html > main > article > div:nth-of-type(1),
+body > main > article > div:nth-of-type(1) {
+  width: 7rem;
+}
+
+html > main > article > div:nth-of-type(1) > img,
+body > main > article > div:nth-of-type(1) > img {
+  width: 100%;
+}
+
+html > main > article > div:nth-of-type(2),
+body > main > article > div:nth-of-type(2) {
+  width: 100%;
+  text-align: center;
+}
+
+html > main > nav,
+body > main > nav {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px 0.3rem #afafaf;
+}
+
+html > main > nav > ul,
+body > main > nav > ul {
+  width: 92%;
+}
+
+html > main > nav > ul > li,
+body > main > nav > ul > li {
+  border-bottom: 0.1rem solid #c6c6c6;
+  height: 4rem;
+  background: url(../image/my/right.png) no-repeat 98% center;
+  background-size: .8rem;
+}
+
+html > main > nav > ul > li > a,
+body > main > nav > ul > li > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-weight: 600;
+}
+
+html > main > nav > ul > li:last-of-type,
+body > main > nav > ul > li:last-of-type {
+  border: none;
+}
+
+html > main > .exitBox,
+body > main > .exitBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 8rem;
+}
+
+html > main > .exitBox > button,
+body > main > .exitBox > button {
+  width: 92%;
+  color: #ff8a00;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  background-color: #fff;
+  line-height: 4rem;
+}
